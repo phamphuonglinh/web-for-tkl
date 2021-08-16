@@ -1,0 +1,20 @@
+@@ -1,133 +1,156 @@
+$(document).ready(function() {
+    // process bar
+    setTimeout(function() {
+        firstQuestion();
+        $('.spinner').fadeOut();
+        $('#preloader').delay(350).fadeOut('slow');
+        $('body').delay(350).css({
+            'overflow': 'visible'
+        });
+    }, 600);
+})
+const textConfig = {
+  text1: "He luu cậu!",
+  text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
+  text3: "iu to hay iu mđ ._.",
+  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
+  text5: "iu mđ",
+  text6: "iu ppl",
+  text7: "lí do cậu thích tớ đi :vvvv",
